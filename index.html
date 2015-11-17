@@ -17,9 +17,9 @@
 		<div class="col-1-2">
 			<nav>
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Contact Us</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact Us</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -99,7 +99,7 @@
 	</div>
 </section>
 
-<section class="bg-blue">
+<section class="bg-blue" id="about">
 	<div class="wrapper">
 			<header>
 				<h2>About Us</h2>
@@ -124,7 +124,7 @@
 				<p>Finding new ways to solve problems inspires us. We listen, we challenge traditional thinking, and we never give up.</p>
 			</div>
 		</div>
-		<p><a href="#">Sign Up!</a></p>
+		<a href="#">Sign Up!</a>
 	</div>
 </section>
 
@@ -177,33 +177,40 @@
 	</div>
 </section>
 
-<section class="bg-blue">
+<section class="bg-blue" id="contact">
 	<div class="wrapper">
 		<div class="row">
 			<div class="col-1-2">
 				<header>
 					<h2>Contact Us</h2>
 				</header>
-				<form>
-					<label>Email:
-						<input type="text" name="first-name">
-					</label><br>
-					<label>Subject:
-						<input type="text" name="subject">
-					</label><br>
-					<label>Comment:
-						<textarea></textarea>
-					</label>
-				</form><br>
+				<fieldset>
+					<form>
+						<label>Email:
+							<input type="text" name="first-name">
+						</label><br>
+						<label>Subject:
+							<input type="text" name="subject">
+						</label><br>
+						<label>Comment:
+							<textarea></textarea>
+						</label>
+					</form>
+				</fieldset><br>
 				<a href="#">Submit</a>
 			</div>
 			<div class="col-1-2">
 				<header>
 					<h2>Upcoming Conferences</h2>
 				</header>
-				<p><span>Lincoln, Nebraska</span><br>Nov. 30, 2015<br>Short synopsis of what we’ll be talking about</p>
-				<p><span>Omaha, Nebraska</span><br>Dec. 15, 2015<br>Short synopsis of what we’ll be talking about</p>
-				<p><span>Kearney, Nebraska</span><br>Jan. 30, 2015<br>Short synopsis of what we’ll be talking about</p>
+				<dl>
+					<dt>Lincoln, Nebraska</dt>
+					<dd>Nov. 30, 2015<br>Short synopsis of what we’ll be talking about</dd>
+					<dt>Omaha, Nebraska</dt>
+					<dd>Dec. 15, 2015<br>Short synopsis of what we’ll be talking about</dd>
+					<dt>Kearney, Nebraska</dt>
+					<dd>Jan. 30, 2015<br>Short synopsis of what we’ll be talking about</dd>
+				</dl>
 			</div>
 		</div>
 	</div>
